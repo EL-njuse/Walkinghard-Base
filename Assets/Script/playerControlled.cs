@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class playerControlled : MonoBehaviour
 {
@@ -41,6 +42,8 @@ public class playerControlled : MonoBehaviour
         if (horizontalmove != 0)
         {
             rb.velocity = new Vector2(horizontalmove * speed * Time.deltaTime, rb.velocity.y);
+            anim.SetBool("idle", false);
+            anim.SetBool("walking", true);
         }
 
         //animater
@@ -99,26 +102,22 @@ public class playerControlled : MonoBehaviour
 
         }
     }
+
     //collect things,use trigger
     private void OnTriggerEnter2D(Collider2D collision)
-    {Debug.Log("1");
-        if (collision.tag == "sign")
-        {
-            Debug.Log("进入！");
-            if (collision.gameObject.CompareTag("Player") && collision.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
-            {
-                isPlayerInSign = true;
-            }
+    {
+        if(collision.tag == "Dead"){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 
     void OntriggerExit2D(Collider2D collision)
     {
-        Debug.Log("离开");
-        if (collision.gameObject.CompareTag("Player") && collision.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
-        {
-            isPlayerInSign = false;
-        }
+        // Debug.Log("离开");
+        // if (collision.gameObject.CompareTag("Player") && collision.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
+        // {
+        //     isPlayerInSign = false;
+        // }
     }
 
     //kill enemy
