@@ -182,11 +182,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coll: {fileID: 0}
-  speed: 0
-  jumpforce: 0
+  speed: 1000
+  jumpforce: 1000
   ground:
     serializedVersion: 2
     m_Bits: 0
-  cherry: 0
-  CherryNum: {fileID: 0}
-  isHurt: 0
+  canMove: 1

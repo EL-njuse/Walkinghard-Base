@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1835887752359756910, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_Name
-      value: player
+      value: player Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1835887752359756910, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_Layer
@@ -105,7 +105,7 @@ PrefabInstance:
       objectReference: {fileID: 4952637736013467042, guid: c4e25ff8ebb5f0a4b8ad4859353604b0, type: 3}
     - target: {fileID: 1835887752359756948, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1835887752359756948, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_SortingLayerID
@@ -121,11 +121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1835887752821602904, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0041
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1835887752821602904, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0041
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1835887752821602904, guid: 1cbb30fdfaaa5ac48ba1366db77bc659, type: 3}
       propertyPath: m_LocalScale.z

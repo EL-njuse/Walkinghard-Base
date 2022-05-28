@@ -5,10 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene_start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Hotel_1.unity
     guid: f41dbf63c615acf45ac8c7df9b7dbd14
+  - enabled: 1
+    path: Assets/Scenes/Hotel_2.unity
+    guid: 4c794f75de4f11c49a617160be4d23fe
+  - enabled: 1
+    path: Assets/Scenes/Hotel_Room1.unity
+    guid: 04e39fdc50a8a244aa949f25693a4cc0
+  - enabled: 1
+    path: Assets/Scenes/Hotel_restroom.unity
+    guid: ba5d0d7b9f9756e49ab2940b22a88fdb
+  - enabled: 1
+    path: Assets/Scenes/Black.unity
+    guid: 11aee2410a97ced4c85cba50c88055e9
+  - enabled: 1
+    path: Assets/Scenes/Hotel_Room2.unity
+    guid: 6a29f566c9f104646b696309286f5bfc
+  - enabled: 1
+    path: Assets/Scenes/fire1.unity
+    guid: b218f096df1e3224587bd859e6168996
+  - enabled: 1
+    path: Assets/Scenes/fire2.unity
+    guid: f425254b2e1d84341a2dd0a29ec7963d
+  - enabled: 1
+    path: Assets/Scenes/Elavator.unity
+    guid: a57a198bbf03f244194c2e0101318ebf
+  - enabled: 1
+    path: Assets/Scenes/fireRoom.unity
+    guid: 0dbfb20904a7d67498493d5f3eb36062
   m_configObjects: {}
